@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/meny", "destination": "/meny.html" },
+    { "source": "/kontakt", "destination": "/kontakt.html" }
+  ]
+}

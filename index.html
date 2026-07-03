@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baguetten AS – Ferske baguetter i Moss og Fredrikstad</title>
+    <meta name="description" content="Ferske og påsmurte baguetter, kaffe og mineralvann. Besøk oss i Moss eller Fredrikstad.">
+    <link rel="canonical" href="https://baguettenas.no/">
+    <meta property="og:title" content="Baguetten AS – Ferske baguetter i Moss og Fredrikstad">
+    <meta property="og:description" content="Ferske og påsmurte baguetter, kaffe og mineralvann. Besøk oss i Moss eller Fredrikstad.">
+    <meta property="og:url" content="https://baguettenas.no/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo">
+            <span>Baguetten AS</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="/" class="active">Forside</a></li>
+            <li><a href="/meny" class="">Meny</a></li>
+            <li><a href="/kontakt" class="nav-pill ">Kontakt</a></li>
+        </ul>
+        <button class="nav-hamburger" aria-label="Meny">&#9776;</button>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Baguetten AS</h1>
+        <p class="hero-tagline">Alltid ferske og påsmurte baguetter, kaffe og mineralvann. Velkommen!</p>
+        <a href="/meny" class="btn-cta">Se meny</a>
+    </div>
+    <img class="hero-image" src="/images/baguetter.jpg" alt="Ferske baguetter fra Baguetten AS">
+</section>
+
+<section class="frontpage-grid">
+    <div class="card">
+        <span class="card-eyebrow">Åpningstider</span>
+        <h3>Moss</h3>
+        <p>Mandag–Fredag: 07:00–16:00<br>Lørdag: 09:00–15:00</p>
+        <h3>Fredrikstad</h3>
+        <p>Mandag–Fredag: 07:00–16:00<br>Lørdag: 09:00–15:00</p>
+    </div>
+
+    <div class="ukens-baguett" id="ukens-baguett">
+    <span class="ukens-baguett-eyebrow">Ukens baguett</span>
+    <div class="ukens-baguett-body">
+        <h3 id="ukens-baguett-name">Laster...</h3>
+        <div class="ukens-baguett-meta">
+            <span id="ukens-baguett-price"></span>
+            <span id="ukens-baguett-allergens"></span>
+        </div>
+    </div>
+</div>
+<script>window.__BAGUETTES__ = [{"name": "Reker m/majones", "price": "89,-", "allergens": "1, 10"}, {"name": "Roastbeef m/remulade", "price": "87,-", "allergens": "1, 3, 11"}, {"name": "Kylling m/potetsalat", "price": "87,-", "allergens": "1, 8"}, {"name": "Brie m/bacon", "price": "87,-", "allergens": "4, 5"}, {"name": "Karbonade m/løk", "price": "87,-", "allergens": "1, 3, 4, 8, 11"}, {"name": "Omelette m/bacon", "price": "83,-", "allergens": "1"}, {"name": "Leverpostei m/bacon", "price": "87,-", "allergens": "3, 4, 7, 11"}, {"name": "Kylling tandoori", "price": "83,-", "allergens": "1"}, {"name": "Egg/majones", "price": "73,-", "allergens": "1"}, {"name": "Tunfisk", "price": "73,-", "allergens": "1, 2"}, {"name": "Ost og skinke", "price": "76,-", "allergens": "4"}, {"name": "Krepshaler i chilimajones m/egg", "price": "92,-", "allergens": "1, 4, 8, 10"}, {"name": "Egg m/rekesalat", "price": "73,-", "allergens": "1, 10"}];</script>
+
+
+    <div class="card">
+        <span class="card-eyebrow">Meny</span>
+        <p>Bredt utvalg av ferske baguetter, snacks og drikke. Ønsker du noe annet, smører vi på bestilling.</p>
+        <a href="/meny" class="card-link">Se full meny &rarr;</a>
+    </div>
+
+    <div class="card">
+        <span class="card-eyebrow">Kontakt</span>
+        <p>Besøk oss i Moss eller Fredrikstad, eller ta kontakt for bestilling.</p>
+        <a href="/kontakt" class="card-link">Kontaktinfo &rarr;</a>
+    </div>
+</section>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <span>Baguetten AS</span>
+        </div>
+        <nav class="footer-links">
+            <a href="/">Forside</a>
+            <a href="/meny">Meny</a>
+            <a href="/kontakt">Kontakt</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 Baguetten AS</p>
+    </div>
+</footer>
+<script src="/main.js" defer></script>
+<script src="/ukens-baguett.js" defer></script>
+</body>
+</html>
